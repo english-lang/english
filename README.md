@@ -2,6 +2,19 @@
 
 Yet another programming language
 
+Experimental & in very [pre-design](./ast/README.md) status.
+
+## Status
+
+* [ ] CI setup
+* [ ] English AST Paser **In Progress**
+* [ ] The first `Hello World` program **In Progress**
+* [ ] The first `Loop` program
+* [ ] English Command Line Tool
+* [ ] Core `article` - Standard Input/Output
+* [ ] Core `article` - File System
+* [ ] Core `article` - Go Routine
+
 ## Description
 
 This target of this project to running english articles/sentences on computer, and output meaningful result.
@@ -18,13 +31,3 @@ This project can **NOT** reply your questions like an `AI` or `alpha go`, it jus
 * Use [prose](https://github.com/jdkato/prose) nlp tool to tokenizing word, segmente sentences,and tag `part-of-speech`.
 * Parse `english senteces` to AST by `part-of-speech` senquence.
 * Interprete the AST on `golang VM`
-
-## Status
-
-* [ ] CI setup
-* [ ] English AST Paser **In Progress**
-* [ ] The first `Hello World` program **In Progress**
-* [ ] English Command Line Tool
-* [ ] Core `article` - Standard Input/Output
-* [ ] Core `article` - File System
-* [ ] Core `article` - Go Routine
