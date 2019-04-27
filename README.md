@@ -23,6 +23,7 @@ This project can **NOT** reply your questions like an `AI` or `alpha go`, it jus
 
 * [ ] CI setup
 * [ ] English AST Paser **In Progress**
+* [ ] The first `Hello World` program **In Progress**
 * [ ] English Command Line Tool
 * [ ] Core `article` - Standard Input/Output
 * [ ] Core `article` - File System
