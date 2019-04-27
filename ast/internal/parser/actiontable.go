@@ -21,7 +21,7 @@ var actionTab = actionTable{
 			nil,      /* tagDT */
 			nil,      /* tagVBZ */
 			nil,      /* . */
-			nil,      /* tagPeroid */
+			nil,      /* tagPeriod */
 			shift(4), /* identifier */
 		},
 	},
@@ -35,7 +35,7 @@ var actionTab = actionTable{
 			nil,          /* tagDT */
 			nil,          /* tagVBZ */
 			nil,          /* . */
-			nil,          /* tagPeroid */
+			nil,          /* tagPeriod */
 			nil,          /* identifier */
 		},
 	},
@@ -49,7 +49,7 @@ var actionTab = actionTable{
 			nil,      /* tagDT */
 			nil,      /* tagVBZ */
 			nil,      /* . */
-			nil,      /* tagPeroid */
+			nil,      /* tagPeriod */
 			shift(7), /* identifier */
 		},
 	},
@@ -63,7 +63,7 @@ var actionTab = actionTable{
 			nil,      /* tagDT */
 			nil,      /* tagVBZ */
 			nil,      /* . */
-			nil,      /* tagPeroid */
+			nil,      /* tagPeriod */
 			nil,      /* identifier */
 		},
 	},
@@ -77,7 +77,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -91,7 +91,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			shift(11), /* identifier */
 		},
 	},
@@ -105,7 +105,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			shift(12), /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -119,7 +119,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			reduce(7), /* tagVBZ, reduce: Word */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -133,7 +133,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			reduce(3), /* identifier, reduce: NNPWord */
 		},
 	},
@@ -147,7 +147,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			shift(15), /* identifier */
 		},
 	},
@@ -161,7 +161,7 @@ var actionTab = actionTable{
 			shift(16), /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -175,7 +175,7 @@ var actionTab = actionTable{
 			reduce(7), /* tagDT, reduce: Word */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -189,7 +189,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			reduce(5), /* identifier, reduce: VBZWord */
 		},
 	},
@@ -203,7 +203,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			shift(18), /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -217,7 +217,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -231,7 +231,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -245,7 +245,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			reduce(4), /* identifier, reduce: DTWord */
 		},
 	},
@@ -259,7 +259,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -273,7 +273,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			shift(20), /* tagPeroid */
+			shift(20), /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -287,7 +287,7 @@ var actionTab = actionTable{
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			reduce(2), /* ., reduce: NNWord */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},
@@ -295,13 +295,13 @@ var actionTab = actionTable{
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,       /* INVALID */
-			reduce(6), /* $, reduce: PeroidWord */
+			reduce(6), /* $, reduce: PeriodWord */
 			nil,       /* tagNN */
 			nil,       /* tagNNP */
 			nil,       /* tagDT */
 			nil,       /* tagVBZ */
 			nil,       /* . */
-			nil,       /* tagPeroid */
+			nil,       /* tagPeriod */
 			nil,       /* identifier */
 		},
 	},

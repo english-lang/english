@@ -17,7 +17,7 @@ var gotoTab = gotoTable{
 		2,  // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		3,  // Word
 	},
 	gotoRow{ // S1
@@ -27,7 +27,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S2
@@ -37,7 +37,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		5,  // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		6,  // Word
 	},
 	gotoRow{ // S3
@@ -47,7 +47,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S4
@@ -57,7 +57,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S5
@@ -67,7 +67,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		9,  // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		10, // Word
 	},
 	gotoRow{ // S6
@@ -77,7 +77,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S7
@@ -87,7 +87,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S8
@@ -97,7 +97,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S9
@@ -107,7 +107,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		14, // Word
 	},
 	gotoRow{ // S10
@@ -117,7 +117,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S11
@@ -127,7 +127,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S12
@@ -137,7 +137,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S13
@@ -147,7 +147,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		17, // PeroidWord
+		17, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S14
@@ -157,7 +157,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S15
@@ -167,7 +167,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S16
@@ -177,7 +177,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S17
@@ -187,7 +187,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S18
@@ -197,7 +197,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S19
@@ -207,7 +207,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 	gotoRow{ // S20
@@ -217,7 +217,7 @@ var gotoTab = gotoTable{
 		-1, // NNPWord
 		-1, // DTWord
 		-1, // VBZWord
-		-1, // PeroidWord
+		-1, // PeriodWord
 		-1, // Word
 	},
 }

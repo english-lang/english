@@ -10,13 +10,13 @@
 ### Process flow
 
 * Read english article source
-* Split english paragraphes (each para will have it's own scope/context)
-* Segmente english sentence
+* Split english paragraphs (each para will have it's own scope/context)
+* Segment english sentence
 * Tokenize & tagging english words
 * Parse pre-processed AST tree with English Grammer
 * Manually detect english **text intent** (by switch code, maybe AI can be involved)
 * Mapping pre-processed tree to after-processed AST tree by **text intent** (General programming AST tree)
-* Use `golang` intercepte or use `LLVM` compile to binary.
+* Use `golang` intercept or use `LLVM` compile to binary.
 
 ### Word Type Usage
 
@@ -30,7 +30,7 @@ In `English Lang`, it represents an `identifier`.
 
 A word used to describe an action, state, or occurrence, and forming the main part of the predicate of a sentence, such as hear , become , happen.
 
-In `English Lang`, it represents a `method` of an obejct. 
+In `English Lang`, it represents a `method` of an object.
 
 #### Adverb
 
@@ -50,4 +50,4 @@ A general programming `block`, each paragraph end with `\n` or `\r\n`, and varia
 
 #### Sentence
 
-A valid english sentench with english grammer, describe operations.
+A valid english sentence with english grammar, describe operations.

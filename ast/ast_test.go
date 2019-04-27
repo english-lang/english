@@ -11,14 +11,14 @@ func TestProseEnglish(t *testing.T) {
 	if e != nil {
 		t.Error(e)
 	}
-	assert.Equal(t, "NNP", d.Sentences[0].Tokens[0].Tag)
+	assert.Equal(t, "NNP", d.Paragraphs[0].Sentences[0].Tokens[0].Tag)
 }
 
 func TestSimpleDeclarativeSentence(t *testing.T) {
 
 	s := "Apple is an object."
 	a, _ := ParseArticle(s)
-	words := a.Sentences[0].Tokens
+	words := a.Paragraphs[0].Sentences[0].Tokens
 
 	assert.Equal(t, "NNP", words[0].Tag)
 	assert.Equal(t, "VBZ", words[1].Tag)

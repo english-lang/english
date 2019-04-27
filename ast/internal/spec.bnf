@@ -54,37 +54,37 @@ tagDT
 : '<' 'D' 'T' '>'
 ;
 
-tagPeroid
+tagPeriod
 : '<' '.' '>'
 ;
 
-// === [ Grammer part] 
+// === [ Grammar part] 
 
 << import "github.com/english-lang/english/ast/internal" >>
 
 
 DeclarativeSentence
-: NNPWord VBZWord DTWord NNWord PeroidWord
+: NNPWord VBZWord DTWord NNWord PeriodWord << internal.NewSentence("DeclarativeSentence",$0,$1,$2,$3,$4), nil >>
 ;
 
 NNWord
-: Word tagNN << internal.NewWord($0,$1), nil >>
+: Word tagNN << internal.NewWord($0,"NN"), nil >>
 ;
 
 NNPWord
-: Word tagNNP << internal.NewWord($0,$1), nil >>
+: Word tagNNP << internal.NewWord($0,"NNP"), nil >>
 ;
 
 DTWord
-: Word tagDT << internal.NewWord($0,$1), nil >>
+: Word tagDT << internal.NewWord($0,"DT"), nil >>
 ;
 
 VBZWord
-: Word tagVBZ << internal.NewWord($0,$1), nil >>
+: Word tagVBZ << internal.NewWord($0,"VBZ"), nil >>
 ;
 
-PeroidWord
-: "." tagPeroid << internal.NewWord($0,$1), nil >>
+PeriodWord
+: "." tagPeriod << internal.NewWord($0,"."), nil >>
 ;
 
 Word

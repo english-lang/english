@@ -66,7 +66,7 @@ var TokMap = TokenMap{
 		"tagDT",
 		"tagVBZ",
 		".",
-		"tagPeroid",
+		"tagPeriod",
 		"identifier",
 	},
 
@@ -78,7 +78,7 @@ var TokMap = TokenMap{
 		"tagDT":      4,
 		"tagVBZ":     5,
 		".":          6,
-		"tagPeroid":  7,
+		"tagPeriod":  7,
 		"identifier": 8,
 	},
 }

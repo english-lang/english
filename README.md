@@ -7,7 +7,7 @@ Experimental & in very [pre-design](./ast/README.md) status.
 ## Status
 
 * [ ] CI setup
-* [ ] English AST Paser **In Progress**
+* [ ] English AST Parser **In Progress**
 * [ ] The first `Hello World` program **In Progress**
 * [ ] The first `Loop` program
 * [ ] English Command Line Tool
@@ -21,13 +21,18 @@ This target of this project to running english articles/sentences on computer, a
 
 This project can **NOT** reply your questions like an `AI` or `alpha go`, it just a **programming language**, and all variables and data processing are controlled by writers.  
 
-## Interpreted Language
+## Runtime
 
-* Plan to parse & interprete the `english source code` on `Golang` VM.
-* If the progressing of `english ast parser` sub-project well, could compiler the `english source code` to `LLVM IR`, then compiler to binary.
+* Plan to parse & interpret the `english source code` on `Golang` HLVM (`High Level VM`), and its easy to impl the native api bindings (`golang` have impl that).
+
+* Another option is compile the `english source code` to `LLVM IR`, then compiler to binary, but the problem is hard to build the `std library`.
 
 ## Internal
 
 * Use [prose](https://github.com/jdkato/prose) nlp tool to tokenizing word, segmente sentences,and tag `part-of-speech`.
-* Parse `english senteces` to AST by `part-of-speech` senquence.
-* Interprete the AST on `golang VM`
+* Parse `english sentences` to AST by `part-of-speech` sequence.
+* Interpret the AST on `golang VM`
+
+## Problems
+
+* **Hard** to define string literal in english language.

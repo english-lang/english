@@ -31,63 +31,63 @@ var productionsTable = ProdTab{
 		},
 	},
 	ProdTabEntry{
-		String: `DeclarativeSentence : NNPWord VBZWord DTWord NNWord PeroidWord	<<  >>`,
+		String: `DeclarativeSentence : NNPWord VBZWord DTWord NNWord PeriodWord	<< internal.NewSentence("DeclarativeSentence",X[0],X[1],X[2],X[3],X[4]), nil >>`,
 		Id:         "DeclarativeSentence",
 		NTType:     1,
 		Index:      1,
 		NumSymbols: 5,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
-			return X[0], nil
+			return internal.NewSentence("DeclarativeSentence",X[0],X[1],X[2],X[3],X[4]), nil
 		},
 	},
 	ProdTabEntry{
-		String: `NNWord : Word tagNN	<< internal.NewWord(X[0],X[1]), nil >>`,
+		String: `NNWord : Word tagNN	<< internal.NewWord(X[0],"NN"), nil >>`,
 		Id:         "NNWord",
 		NTType:     2,
 		Index:      2,
 		NumSymbols: 2,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
-			return internal.NewWord(X[0],X[1]), nil
+			return internal.NewWord(X[0],"NN"), nil
 		},
 	},
 	ProdTabEntry{
-		String: `NNPWord : Word tagNNP	<< internal.NewWord(X[0],X[1]), nil >>`,
+		String: `NNPWord : Word tagNNP	<< internal.NewWord(X[0],"NNP"), nil >>`,
 		Id:         "NNPWord",
 		NTType:     3,
 		Index:      3,
 		NumSymbols: 2,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
-			return internal.NewWord(X[0],X[1]), nil
+			return internal.NewWord(X[0],"NNP"), nil
 		},
 	},
 	ProdTabEntry{
-		String: `DTWord : Word tagDT	<< internal.NewWord(X[0],X[1]), nil >>`,
+		String: `DTWord : Word tagDT	<< internal.NewWord(X[0],"DT"), nil >>`,
 		Id:         "DTWord",
 		NTType:     4,
 		Index:      4,
 		NumSymbols: 2,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
-			return internal.NewWord(X[0],X[1]), nil
+			return internal.NewWord(X[0],"DT"), nil
 		},
 	},
 	ProdTabEntry{
-		String: `VBZWord : Word tagVBZ	<< internal.NewWord(X[0],X[1]), nil >>`,
+		String: `VBZWord : Word tagVBZ	<< internal.NewWord(X[0],"VBZ"), nil >>`,
 		Id:         "VBZWord",
 		NTType:     5,
 		Index:      5,
 		NumSymbols: 2,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
-			return internal.NewWord(X[0],X[1]), nil
+			return internal.NewWord(X[0],"VBZ"), nil
 		},
 	},
 	ProdTabEntry{
-		String: `PeroidWord : "." tagPeroid	<< internal.NewWord(X[0],X[1]), nil >>`,
-		Id:         "PeroidWord",
+		String: `PeriodWord : "." tagPeriod	<< internal.NewWord(X[0],"."), nil >>`,
+		Id:         "PeriodWord",
 		NTType:     6,
 		Index:      6,
 		NumSymbols: 2,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
-			return internal.NewWord(X[0],X[1]), nil
+			return internal.NewWord(X[0],"."), nil
 		},
 	},
 	ProdTabEntry{
