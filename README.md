@@ -16,7 +16,7 @@ This project can **NOT** reply your questions like an `AI` or `alpha go`, it jus
 ## Internal
 
 * Use [prose](https://github.com/jdkato/prose) nlp tool to tokenizing word, segmente sentences,and tag `part-of-speech`.
-* Parse `english senteces` to AST by `part-of-speech`.
+* Parse `english senteces` to AST by `part-of-speech` senquence.
 * Interprete the AST on `golang VM`
 
 ## Status
