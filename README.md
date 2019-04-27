@@ -21,8 +21,9 @@ This project can **NOT** reply your questions like an `AI` or `alpha go`, it jus
 
 ## Status
 
-* [] CI setup
-* [] English AST Paser **In Progress**
-* [] English Command Line Tool
-* [] Core module - Input/Output
-* [] Core module - Goroutine
+* [ ] CI setup
+* [ ] English AST Paser **In Progress**
+* [ ] English Command Line Tool
+* [ ] Core `article` - Standard Input/Output
+* [ ] Core `article` - File System
+* [ ] Core `article` - Go Routine
