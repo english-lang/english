@@ -4,6 +4,12 @@ Yet another programming language
 
 Experimental & in very [pre-design](./ast/README.md) status.
 
+## **Pause**
+
+The accuracy of lib `prose` is not enough, look up new lib or model.
+
+`Part-of-speech` tagging is the core of this project.
+
 ## Status
 
 * [ ] CI setup
